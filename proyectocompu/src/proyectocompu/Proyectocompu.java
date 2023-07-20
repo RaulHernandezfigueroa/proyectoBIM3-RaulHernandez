@@ -83,12 +83,12 @@ public class Proyectocompu {
     }
 
     static public void verTodo() {
-        System.out.println("#############################################");
+        System.out.println("###############################################");
         for (int i = 0; i < contador; i++) {
             System.out.println("Telefono: " + nuevoContactos[i].verTelefono());
             System.out.println("Nombre: " + nuevoContactos[i].verNombre());
             System.out.println("Domicilio: " + nuevoContactos[i].verDomicilio());
-            System.out.println("#############################################");
+            System.out.println("###############################################");
         }
     }
 
